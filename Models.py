@@ -22,13 +22,10 @@ from sklearn.multioutput import MultiOutputRegressor
 from sklearn.ensemble import StackingRegressor
 from sklearn.linear_model import LinearRegression
 
-# Import file
-from google.colab import files
-uploaded = files.upload() # Still read as normal (use file name).
 
 # Base setup for the df
 
-df = pd.read_csv('all_game_stats - all_game_stats.csv')
+df = pd.read_csv('all_game_stats.csv')
 
 
 # Configure/encode the data
