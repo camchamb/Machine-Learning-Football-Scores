@@ -39,7 +39,7 @@ columns_to_drop = ['kickingPoints_team1','kickingPoints_team2','schoolId_team1',
 df = df.drop(columns=columns_to_drop)
 
 
-#encoding the data.
+#encoding the data. ALL NORMALIZATION AND ENCODING CODE DONE BY TEAMMATE. I help to develop as well.
 
 encoder = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
 
